@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <link href="" rel="stylesheet">
+  <title></title>
+  <link rel="shortcut icon" type="image/jpg" href="./assets/images/logo.jpg">
+
+
+  <title>PotholeDetection</title>
+
+<link href="./main.550dcf66.css" rel="stylesheet"></head>
+
+<body> <!-- Add your content of header -->
+<header>
+  <nav class="navbar navbar-default active">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html" title="">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./index.html" class="btn btn-default navbar-btn" title="">Home</a></li>      
+
+        </ul>
+      </div> 
+    </div>
+  </nav>
+</header>
+
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Pothole Detection</h1>
+          <p>Welcome to Pothole Detection System</p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="text-center">
+            <h2>About Project</h2>
+            <p>To construct the pothole detection system using the help of accelerometer and real time pothole detection using the image processing 
+          
+            </p>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">      
+          <div class="col-xs-12">
+
+
+            <div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
+                
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        
+                          <h3>Accelerometer </h3>
+                          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                          </a>
+                          <p>
+                            Data in the form of a dataset from the accelerometer sensors were collected on an urban road with various potholes.
+                            MansOS based software was used, to obtain raw acceleration data and transmit it through a USB interface to a laptop computer
+                            . Consecutive measurements with difference value above specific threshold level represent events.
+                        </p>
+                        <p>
+                          Road Mic pothole detection methodology was used to collect reference data, where Road Mic tests were performed. Research of potential event-related features was performed, after the acquisition of the first test data set. The emphases were put on features that do not require resource-intensive signal processing techniques and therefore are suitable for implementation of real-time detection using devices with limited hardware and software resources.
+                        </p>
+                        <p>
+                          It is similar to the z-peak algorithm used in Pothole Patrol and Traffic Sense systems, and is thresholding the acceleration amplitude at Z-axis. The features that classify the measurements are the values exceeding specific thresholds that identify the type of the potholes.
+                        </p>
+                        <p>
+                          The algorithm is trained in such a way that it assumes about the information regarding the Z-axis position of the accelerometer is known. Additional virtual reorientation of the accelerometer is possible, as described in Neric ell. We used the controlled placement of the accelerometer and eliminated the extra processing required for the virtual reorientation.
+                        </p>
+                        <p>
+                          This also tested on the acquired data set. It searches for the two consecutive measurements with a difference in their values above a specific threshold level was performed, instead of ZTHRESH. Fast changes in vertical acceleration data were detected by the algorithm. It is required by the algorithm to determine the Z-axis position similar to the previous approach. After the analysis of the related work, it was decided by the authors to implement some of the algorithms that could be used for post-processing. 
+                        </p>                         
+                          <p>
+                            The standard deviation of vertical acceleration was one of the techniques which looked promising to implement a resource-constrained device. Pothole detection algorithm STDEV. Measurements with standard deviation value above specific threshold level represent events.
+                          </p>
+                          <a href="https://www.google.com/maps/d/viewer?mid=1FPp0HPXXfyF7tvEbHbjf71s4tk3yravW&ll=21.229637500590915%2C77.74000000000001&z=18" class="btn btn-primary" title="">
+                            Discover Full Map
+                          </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        
+                             <iframe src="https://www.google.com/maps/d/embed?mid=1FPp0HPXXfyF7tvEbHbjf71s4tk3yravW" width="940" height="480"></iframe>
+                          
+                             <h3>Image  Processing</h3>
+                         
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                             
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                              
+                              <span class="sr-only">Next</span>
+                            </a>
+                          <p>
+                            We have used high resolution images and videos as input for the purpose of training and building computer vision system. Images are accordingly converted into convenient resolution. We have used YOLOv4, darknet, Computer Vision i.e., OpenCV library as software aspects for this project.</p>
+                          <p>
+                            We had a dataset consisting of 600 high resolution images, of which 30 images are used for training and remaining images are used for testing. Before providing all the images to create a model, it was necessary to process the images and convert them into suitable format.
+                          </p>
+                          <p>
+                            Initially all the images were in high end resolution which were resized and compressed into suitable processing format but not losing its actual property as well as quality. Also, low light images were enhanced using MIRNET model. We were successful in creating a label called ‘Pothole’ which was manually provided in each image used for training. 
+                          </p>
+                          <p>YOLO framework also known as ‘You Only Look Once’ deals with object detection. It takes entire image/video in a single instance. It returns boundaries of the detected object in the form of coordinates.</p>
+                          <p>It works on the principle of probabilities; higher the obtained probability higher is the accuracy of the detected object. It is a very fast technique which can process 45 frames per second. For training,For training, YOLO takes an image and converts it into 3 x 3 grid and checks for the probability of presence of given object (Pothole) in each grid individually. Each grid is assigned values 0 or 1 according to the probability.</p>
+                          <p>For testing, images are passed and run-in forward propagation until we obtain output. It uses RCNN family of techniques. According to the model that has been prepared, accurate video output which shows the presence of pothole is returned for the respective input.</p>
+                           
+                          <video width="940" height="480" controls>
+                            <source src ="pothole_output.mp4" type="video/mp4" >
+                          </video>
+                          
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+           
+          </div>
+          
+        </div>  
+      
+    </div>
+  </div>
+
+  <div class="section-container">
+    <div class="container text-center">
+      <div class="row section-container-spacer">
+        <div class="col-xs-12 col-md-12">
+          <h2>Future Scope</h2>
+          <p>In future, we can implement image processing system to avoid pothole in embedded system car. We can implement image processing using thermal imaging, night vision camera to detect potholes in poor lighting conditions. Like Google Maps, we can get information and location about potholes on our smartphones to avoid the accident conditions.</p>
+        </div>  
+      </div>
+      <div class="row">  
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navbarFixedTopAnimation();
+  });
+</script>
+
+<footer class="footer-container white-text-container">
+  <div class="container">
+    <div class="row">
+
+     
+      <div class="col-xs-12">
+        <h3>Pothole Detection</h3>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <p><small>using Image Processing and Accelerometer</small>
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <p class="text-right">
+              <a href="https://github.com/sumitbhimte/Pothole-Detection-System.git" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              
+            </p>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+    scrollRevelation('.reveal');
+  });
+</script>
+
+ <script type="text/javascript" src="./main.0cf8b554.js"></script></body>
+
+</html>
